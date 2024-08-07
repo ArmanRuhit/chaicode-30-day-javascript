@@ -93,3 +93,21 @@ switch (score/10) {
         break;
 }
 
+// Task 6: Write a program that uses ternary operator to check if a number is even or odd
+
+console.log("Task 6");
+let number = 5;
+console.log(number % 2 == 0 ? "Even" : "Odd")
+
+// Task 7; Write a program to check if a year is a leap year using multiple conditions
+
+console.log("Task 7")
+let year = 2024;
+if(year % 400 == 0){
+    console.log("Year: "+year+" leap year");
+} else if(year % 4 == 0 && year % 100!= 0){
+    console.log("Year: "+year+" leap year");
+} else {
+    console.log("Year: "+year+" not leap year");
+
+}
