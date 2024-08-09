@@ -70,7 +70,7 @@ let score = 78;
 
 console.log("Grade:")
 
-switch (score/10) {
+switch (Math.floor(score/10)) {
     case 10:
     case 9:
     case 8:
